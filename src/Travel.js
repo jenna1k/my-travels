@@ -9,3 +9,4 @@ const Travel = ({ destination, country, photo, distance }) => (
 );
 
 export default Travel;
+
