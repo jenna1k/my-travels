@@ -14,6 +14,12 @@ class App extends Component {
           country="South Korea"
           distance="8,122 km"
         />
+          <Travel 
+          photo="https://www.travelalerts.ca/wp-content/uploads/2018/08/Santorini.jpg"
+          destination="Santorini"
+          country="Greece"
+          distance="2.650 km"
+        />
       </div>
     );
   }
