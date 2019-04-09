@@ -41,15 +41,17 @@ const travels = [
 ];
 
 const Travels = () => (
-    <div>
+    <table style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         {travels.map(travel => (
-            <figure>
-                <img src={travel.photo} atr={travel.destination} width='500px' height='300px'/>
-                <h2>{travel.destination}, {travel.country}</h2>
-                <p>{travel.distance}</p>
-            </figure>
+            <tr>
+                <td>
+                    <img src={travel.photo} atr={travel.destination} width='500px' height='300px'/>
+                    <h2>{travel.destination}, {travel.country}</h2>
+                    <p>{travel.distance}</p>
+                </td>
+            </tr>
         ))}
-    </div>
+    </table>
 );
 
 export default Travels;
